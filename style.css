@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+header{
+    padding: 26px 0;
+}
+.header-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.header-box ul{
+    display: flex;
+    column-gap: 32px;
+    list-style: none;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.3);
+
+
+}
+.header-right{
+    display: flex;
+    column-gap: 32px;
+    align-items: center;
+}
+.header-right button{
+    padding: 5px 18px;
+    background: black;
+    color: whitesmoke;
+}
+.sec1{
+    background: url("image/Rectangle (5).png")center/cover no-repeat;
+    text-align: center;
+    padding: 215px 0 274px;
+    color: white;
+}
+.sec1-btn{
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+.sec1 p {
+    margin: 33px 0  60px;
+}
+.sec1-btn button{
+    width: 215px;
+    padding: 8px 0;
+    background: none;
+    border: 2px solid white;
+    color: white;
+}
+.sec2-left{
+    background: url("image/Rectangle (11).png")center/cover no-repeat;
+    width: calc(50% - 10px);
+    padding: 310px 0 30px;
+    text-align: center;
+}
+.sec2-right{
+    background: url("image/Rectangle (13).png")center/cover no-repeat;
+    width:calc(50% - 10px);
+    padding: 310px 0 30px;
+    text-align: center;
+
+}
+.sec2-box{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.sec2-btn{
+    display: flex;
+    justify-content: center;
+    column-gap: 125px;
+
+}
+.sec2 p{
+    margin: 18px 35px;
+}
+.sec2-btn  button{
+    background: none;
+    border: none;
+    color: white;
+}
+.sec2{
+    padding: 16px 0;
+}
+.sec3{
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 66px 0 83px;
+    margin-bottom: 16px;
+}
+.sec4{
+    background: url("image/Rectangle (16).png") center/cover no-repeat;
+    text-align: center;
+    padding: 291px 0 28px;
+    margin-bottom: 16px;
+
+}
+.sec4 h1{
+    color: white;
+    font-size: 38px;
+    padding-bottom: 28px;
+
+
+}
+.sec4-btn{
+    display: flex;
+    justify-content: center;
+    column-gap: 28px;
+
+
+}
+.sec4-btn button{
+    width: 215px;
+    padding: 8px 0;
+    background: none;
+    border: 2px solid white;
+    color: white;
+}
+.sec5{
+    background: url("image/Rectangle (18).png") center/cover no-repeat;
+ padding: 136px 0;
+    text-align: right;
+
+}
+.sec5 h2{
+    padding-bottom: 33px;
+    font-size: 35px;
+
+}
+.sec5 button{
+    width: 107px;
+    height: 20px;
+    border: none;
+    background: none;
+
+
+}
+.footer1{
+    background: black;
+}
+
+
